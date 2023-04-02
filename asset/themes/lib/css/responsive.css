@@ -1,0 +1,60 @@
+@media screen and (max-width:900px) {
+#header {
+	padding:0 10px;
+}
+}
+@media screen and (max-width:900px) {
+#menu_holder {
+	padding:0 10px;
+}
+@media screen and (max-width:600px) {
+.logo {
+	position:relative;
+	text-align:center;
+}
+.logo img {
+	display:inline-block;
+}
+#header h1 {
+	float:none;
+	clear:both;
+	padding:10px 0 15px 0;
+	text-align:center;
+}
+#header h1 br {
+	display:none;
+}
+
+.footer_mid {
+	float:none!important;
+	clear:both;
+	width:100%!important;
+}
+.footer_rgt {
+	float:none;
+	position:absolute;
+	top:0;
+	right:10px;
+}
+#footer_area {
+	padding-left:10px;
+}
+}
+@media screen and (max-width:500px) {
+#main_content {
+	background:none;
+	padding-left:10px;
+	min-height:inherit;
+}
+#sidebar {
+	position:relative;
+	width:inherit;
+	padding:0;
+	padding-bottom:20px;
+}
+.product_column {
+	width:100%;
+	margin-right:0;
+	margin-bottom:10px;
+}
+}
